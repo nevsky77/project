@@ -22,7 +22,7 @@
 <script setup lang="ts">
 import { useStore } from 'vuex'
 import { EConnectionActions, ETableColumnNames } from '../types/enums'
-import TableComponent from '../components/TableComponent.vue'
+import TableComponent from '../components/tables/TableComponent.vue'
 import { computed } from 'vue'
 import { TConnectionActionTypes } from '../types/types'
 

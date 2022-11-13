@@ -1,0 +1,58 @@
+//
+//@mixin bp($point, $maxWidth: false) {
+//  $pointValue: whetherOr(map-get($breakpoints, $point), $point);
+//  $maxWidthValue: whetherOr(map-get($breakpoints, $maxWidth), $maxWidth);
+//
+//  @if $pointValue and $maxWidth == false {
+//    @media (min-width: $pointValue) {
+//      @content;
+//    }
+//  } @else if $pointValue and $maxWidthValue {
+//    @media (min-width: $pointValue) and (max-width: $maxWidthValue - 1px) {
+//      @content;
+//    }
+//  } @else {
+//    @debug 'UNHANDLED CASE IN @mixin bp !!!!';
+//  }
+//}
+//
+//// adds breakpoints to modification
+//@mixin with-bp($propName, $propVal) {
+//  #{$propName}: $propVal;
+//  @each $bpName, $bpVal in $breakpoints {
+//    @include bp($bpName) {
+//      &--#{$bpName} {
+//        #{$propName}: $propVal;
+//      }
+//    }
+//  }
+//}
+//
+//@mixin scroll($color, $background-color) {
+//  ::-webkit-scrollbar, &::-webkit-scrollbar {
+//    width: 3px;
+//    height: 3px;
+//  }
+//
+//  ::-webkit-scrollbar-thumb, &::-webkit-scrollbar-thumb {
+//    // @include var(background, $color);
+//    background: var(--#{$color});
+//  }
+//
+//  ::-webkit-scrollbar-track, &::-webkit-scrollbar-track {
+//    // @include var(background, $background-color);
+//    background: var(--#{$background-color});
+//  }
+//}
+//
+//// c-input-border, c-transparent
+//@mixin webkit-scroll($color: c-input-border, $background-color: c-transparent) {
+//  overflow: auto;
+//  -webkit-overflow-scrolling: touch;
+//  scrollbar-width: thin; // thin scrollbar FOR MOZILLA
+//  @include scroll($color, $background-color);
+//
+//  .is-dark & {
+//    @include scroll($color, $background-color);
+//  }
+//}

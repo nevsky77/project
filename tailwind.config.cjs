@@ -6,6 +6,7 @@ module.exports = {
       warn: 'var(--c-warn)',
       danger: 'var(--c-danger)',
       success: 'var(--c-success)',
+      main: 'var(--c-main)',
 
       'success-bg': 'var(--c-success-bg)',
       'warn-bg': 'var(--c-warn-bg)',

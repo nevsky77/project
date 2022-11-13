@@ -63,7 +63,7 @@
 </template>
 
 <script setup lang="ts">
-import { TSymbolItem } from '../types/types'
+import { TSymbolItem } from '../../types/types'
 import { PropType } from 'vue'
 
 const props = defineProps({

@@ -1,9 +1,7 @@
 <template>
-  <DataPage />
+  <router-view />
 </template>
 
-<script setup lang="ts">
-import DataPage from './view/DataPage.vue'
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss"></style>
