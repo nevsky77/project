@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-warn: #ff756c;
+  --c-danger: #F5A623;
+  --c-success: #6dda99;
+
+  --c-success-bg: rgba(79, 209, 139, 0.05);
+  --c-warn-bg: rgba(255, 89, 79, 0.05);
+
+  --c-black: #171717;
+  --c-dark-gray: #737373;
+  --c-light-gray: #A9A9A9;
+  --c-light: #F8F9FD;
+  --c-white: #FFFFFF;
+
+  --c-transparent-2: rgba(0, 0, 0, 0.05); /* usually for hover bg */
+  --c-transparent-1: rgba(0, 0, 0, 0.1); /* usually for hover bg */
+}
+
+/*body {*/
+/*  margin: 0;*/
+/*  display: flex;*/
+/*  place-items: center;*/
+/*  min-width: 320px;*/
+/*  min-height: 100vh;*/
+/*}*/
+
+
+/* debug */
+pre {
+  color: tomato;
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 600;
+}
+
